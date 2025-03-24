@@ -1,0 +1,23 @@
+# Ігноруємо IDE-конфігураційні файли
+.idea/
+
+# Лог-файли та тимчасові файли
+*.log
+*.tmp
+
+# Файли налаштувань та середовища
+.env
+*.pyc
+__pycache__/
+
+# Директорія для контрольних точок Spark
+/tmp/kafka-checkpoint/
+
+# Віртуальні середовища Python
+venv/
+kafka-env/
+
+# Дані Kafka та Spark
+logs/
+metastore_db/
+derby.log
